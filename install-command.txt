@@ -5,11 +5,11 @@ sudo bash /boot/firmware/PPPwn/install.sh
 remote
 sudo apt update
 sudo apt install git -y
-sudo rm -f -r SKRIP-EKSPERIMEN
+sudo rm -f -r SKRIP-EKSPERIMEN-2
 sudo systemctl stop pipwn
 git clone https://github.com/fauzan388/SKRIP-EKSPERIMEN
 sudo mkdir /boot/firmware/
-cd SKRIP-EKSPERIMEN
+cd SKRIP-EKSPERIMEN-2
 sudo cp -r PPPwn /boot/firmware/
 cd /boot/firmware/PPPwn
 sudo chmod 777 *
